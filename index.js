@@ -32,7 +32,7 @@ app.get('/file', function(req, res) {
         return res.end();
     });
 
-    fs.appendFile('demofile1.html', 'Hello content!', function(err) {
+    fs.appendFile('demofile1.html', 'Hello 04Banshee this more content!', function(err) {
         if (err) throw err;
         console.log('Saved!');
     });
