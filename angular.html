@@ -9,23 +9,28 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
-<body ng-app="Hi-Angular">
-    <a href="/file">Click here to write a file to the server</a></br>
-    <a href="https://github.com/04banshee/Dev-Training-Lab-Charlie.git"target="_blank">Or check out the Github repro</a></br>
-    <div class="container" ng-controller="MainController">
+<body ng-app="hi-angular">
+    <a href="https://github.com/04banshee/Dev-Training-Lab-Charlie.git"target="_blank">Click here for the Github repro</a></br>
+    <a href="/file">Click here to write a file to Server</a>
+    <div class="container-fluid" ng-controller="MainController">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h1 id="page-title">Hi Angular</h1>
-                <label for="name">Enter Name:</label>
-                <input type="text" ng-model="user.name">
-                <h3 id="user-greeting">Hi there, {{ user.name }} nice to be on Angular.</h3>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1 id="page-title">Angular JavaScript Asynchronous Development </h1>
+                <label for="name">Enter name:</label>
+                <input ng-model="user.name">
+                <h3 id="user-greeting">hi there, {{ user.name }}</h3>
+                <p id="user-car">Do you drive a {{ user.car }}? Not a nice one.</p>
             </div>
         </div>
     </div>
 
     <script>
-        window.app = angular.module('Hi-Angular', []);
-
+        window.app = angular.module('hi-angular', []);
         app.controller('MainController', function($scope, $http) {
             $scope.user = null;
 
