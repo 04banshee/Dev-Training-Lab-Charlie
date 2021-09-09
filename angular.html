@@ -9,19 +9,23 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
-<body ng-app="hi-angular">
+<body ng-app="Hi-Angular">
+    <a href="/file">Click here to write a file to the server</a></br>
+    <a href="https://github.com/04banshee/Dev-Training-Lab-Charlie.git"target="_blank">Or check out the Github repro</a></br>
     <div class="container" ng-controller="MainController">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h1 id="page-title">hi angular</h1>
-                <h3 id="user-greeting">and hi there, {{ user.name }}</h3>
+                <h1 id="page-title">Hi Angular</h1>
+                <label for="name">Enter Name:</label>
+                <input type="text" ng-model="user.name">
+                <h3 id="user-greeting">Hi there, {{ user.name }} nice to be on Angular.</h3>
             </div>
         </div>
     </div>
 
 
     <script>
-        window.app = angular.module('hi-angular', []);
+        window.app = angular.module('Hi-Angular', []);
 
         app.controller('MainController', function($scope, $http) {
             $scope.user = null;

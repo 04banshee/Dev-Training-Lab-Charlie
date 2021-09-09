@@ -32,7 +32,7 @@ app.get('/file', function(req, res) {
         return res.end();
     });
 
-    fs.appendFile('demofile1.html', 'Hello 04Banshee this more content!', function(err) {
+    fs.appendFile('demofile1.html', 'this is additional content!', function(err) {
         if (err) throw err;
         console.log('Saved!');
     });
@@ -40,4 +40,7 @@ app.get('/file', function(req, res) {
 
 });
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000, function() {
+console.log((new Date()) + ' Server is listening on port 3000');
+
+});
