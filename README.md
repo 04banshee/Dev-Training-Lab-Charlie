@@ -6,7 +6,7 @@
 
 **I want** to interact and respond to the NodeJs app by providing input and have the appliction respond to user input. 
 
-**So That** the application is dynamic and interactive to the end user.
+**So That** the application is dynamic and interactive [like this one](https://dev-training-lab-charlie.herokuapp.com/) to the end user.
 
 ## Comments/Discussion
 #### AngularJs Background
