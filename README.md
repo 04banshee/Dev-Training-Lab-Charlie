@@ -24,10 +24,10 @@ The `end point` in the example is /user.  Angular uses the data from the "user" 
 
 
 ## Resources
-  ### Packages:
-  - [AJAX](https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js)
-  - [JQuery](https://code.jquery.com/jquery-3.3.1.min.js)
-  - [BootStrap](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
+  ### Packages Libaries and Tutorials:
+  - [AJAX](https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js) libaries
+  - [JQuery](https://code.jquery.com/jquery-3.3.1.min.js) libaries
+  - [BootStrap](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js) libaries
 -  There are many tutorials that will aid in Angular development, [this is one is good](https://www.tutorialspoint.com/angularjs/angularjs_overview.htm) 👍  
 -  Angular uses JSON files to read data from. If you are unfamiliar with JSON file format [check out this out](https://docs.fileformat.com/web/json/).
 -  To aid in Angular development the Chrome web browser has an web extension for [checking](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) JSON files.  
