@@ -9,7 +9,7 @@
 **So That** the application is dynamic and interactive [like this one](https://dev-training-lab-charlie.herokuapp.com/) to the end user.
 
 ## Comments/Discussion
-#### AngularJs Background
+#### AngularJs Information:
 - AngularJs is ideal for creating dynamic web applications.  To better understand Angular [click here](https://docs.angularjs.org/guide/introduction) and check out what it has to offer.
 - Angular uses `end points` to bind information to `call back`functions.  The data in the `end points` bind to a call back function and displays to a web browser .  Below is an example of this in `action`.
 
